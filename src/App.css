@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 4rem;
+  box-shadow: -.5rem -.5rem 1.6rem 0 rgba(48, 50, 50, 0.41);
+  color: #4B4453;
+}
+
+.container h3 {
+  font-size: 2.3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.container button {
+  margin: 4rem auto 2rem auto;
+  text-align: center;
+  width: 95%;
+  padding: 1rem;
+  background-color: #D65DB1;
+  color: #fff;
+  font-size: 2rem;
+  border: 0;
+  transition: transform .3s;
+}
+
+.container button:active {
+  transform: scale(.98);
+}

@@ -1,0 +1,26 @@
+.person {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.person img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.7rem;
+}
+
+.content h4 {
+    font-size: 2rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
